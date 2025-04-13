@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive DOM Page | Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="mainTitle">Jacob Witty's Js Interactive Page</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#actions">Actions</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="container">
+
+        <div class="card">
+          <h2>About Section</h2>
+          <p>This page demonstrates basic JavaScript DOM manipulation.</p>
+          <p>It showcases how to dynamically change content and styles using JavaScript.</p>
+          <p>Explore the buttons below to see how JavaScript can make a webpage interactive.</p>
+          <p>JavaScript is a versatile language that powers modern web applications.</p>
+          <p>With JavaScript, you can create animations, handle events, and build complex user interfaces.</p>
+          <p>Learning JavaScript opens the door to endless possibilities in web development.</p>
+        </div>
+
+        <div class="row"> 
+            <div class="card" id="actions">
+                <h2>Showcasing What JS Can Do!</h2>
+                <p id="info">Click the buttons below to see JavaScript in action.</p>
+                <button onclick="changeContent()">Change Text & Style</button>
+                <button onclick="toggleElement()">Add / Remove Info</button>
+                <button onclick="toggleTheme()">change Theme</button>
+              </div>
+      
+              <div class="card" id="extra-section">
+                <h2>Why Learn JavaScript?</h2>
+                <ul>
+                  <li>Enhance interactivity</li>
+                  <li>Make websites dynamic</li>
+                  <li>React to user actions</li>
+                  <li>Create animations</li>
+                  <li>Build modern web applications</li>
+                  <li>Handle events efficiently</li>
+                  <li>Integrate with APIs</li>
+                  <li>Improve user experience</li>
+                </ul>
+              </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>Contact us: <a href="https://wittyhighbrowtechnologies.kesug.com">wittyhighbrowtechnologies.kesug.com</a></p>
+    <small>&copy; 2025 Jacob Witty Projects</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
