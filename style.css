@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f4f8;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  header {
+    background: #005f73;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  .row {
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    margin: 0.5rem 0.5rem 0 0;
+    padding: 0.5rem 1rem;
+    background: #0a9396;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #00777b;
+  }
+  
+  footer {
+    background: #001219;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Dark Theme */
+  .dark-theme {
+    background: #121212;
+    color: #eeeeee;
+  }
+  
+  .dark-theme .card {
+    background: #1e1e1e;
+    color: #eeeeee;
+  }
+  
+  .dark-theme a {
+    color: #80cbc4;
+  }
+  
